@@ -27,7 +27,7 @@ body{
     justify-content: space-between;
     align-items: flex-end;
 
-    margin-bottom: 58px;
+    margin-bottom: 76px;
 }
 .logo{
     position: relative;
@@ -54,6 +54,9 @@ body{
     font-size: 14px;
     font-weight: 500;
     list-style-type: none;
+}
+.nav-button{
+    display: none;
 }
 .nav-link{
     color: #000;
@@ -87,9 +90,11 @@ body{
 .services-row{
     display: flex;
     column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 60px;
 }
 .services-card{
-
+    flex: 1 1 0;
 }
 .services-card-img{
     margin-bottom: 30px;
